@@ -1,30 +1,30 @@
 {
-    "name": "fnip2mqtt",
-    "version": "0.1.0",
-    "description": "Future Now controller to MQTT bridge",
-    "main": "index.js",
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/ryhanen/fnip2mqtt.git"
-    },
-    "engines": {
-      "node": "8.11 - 10"
-    },
-    "keywords": [
-      "fnip",
-      "bridge",
-      "mqtt"
-    ],
-    "scripts": {
-      "start": "node index.js"
-    },
-    "author": "Juha Ryhänen",
-    "license": "GPL-3.0",
-    "bugs": {
-      "url": "https://github.com/ryhanen/fnip2mqtt/issues"
-    },
-    "dependencies": {
-    },
-    "devDependencies": {
-    }
-  }
+  "name": "fnip2mqtt",
+  "version": "0.1.0",
+  "description": "Future Now controller to MQTT bridge",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ryhanen/fnip2mqtt.git"
+  },
+  "engines": {
+    "node": "8.11 - 11.9.0"
+  },
+  "keywords": [
+    "fnip",
+    "bridge",
+    "mqtt"
+  ],
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Juha Ryhänen",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/ryhanen/fnip2mqtt/issues"
+  },
+  "dependencies": {
+    "semver": "*"
+  },
+  "devDependencies": {}
+}
