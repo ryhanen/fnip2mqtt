@@ -24,7 +24,9 @@
     "url": "https://github.com/ryhanen/fnip2mqtt/issues"
   },
   "dependencies": {
-    "semver": "*"
+    "semver": "*",
+    "js-yaml": "*",
+    "object-assign-deep": "*"
   },
   "devDependencies": {}
 }

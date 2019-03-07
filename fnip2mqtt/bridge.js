@@ -1,3 +1,5 @@
+const settings = require('./util/settings');
+
 class Bridge {
     constructor() {
 
