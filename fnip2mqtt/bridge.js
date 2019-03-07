@@ -1,3 +1,4 @@
+const logger = require('./util/logger');
 const settings = require('./util/settings');
 
 class Bridge {

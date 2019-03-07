@@ -6,6 +6,10 @@ const objectAssignDeep = require(`object-assign-deep`);
 const path = require('path');
 
 const defaults = {
+    advanced: {
+        log_directory: path.join(data.getPath(), 'log', '%TIMESTAMP%'),
+        log_level: process.env.DEBUG ? 'debug' : 'info'
+    },    
 };
 
 let settings = read();
