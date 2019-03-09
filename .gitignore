@@ -8,6 +8,12 @@ yarn-error.log*
 # Dependency directories
 node_modules/
 
+# dotenv environment variables file
+.env
+
+# vscode debug files
+.vscode
+
 # data
 data/log*.txt
 data/log

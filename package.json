@@ -24,12 +24,13 @@
     "url": "https://github.com/ryhanen/fnip2mqtt/issues"
   },
   "dependencies": {
-    "semver": "*",
     "js-yaml": "*",
-    "object-assign-deep": "*",
     "mkdir-recursive": "*",
     "moment": "*",
+    "mqtt": "*",
+    "object-assign-deep": "*",
     "rimraf": "*",
+    "semver": "*",
     "winston": "2.4.2"
   },
   "devDependencies": {}
